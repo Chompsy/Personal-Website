@@ -10,7 +10,8 @@ body {
     display: flex;
     flex-direction: column;
     
-    background-image: url(Content/Images/DarkWaterBackground.jpg);
+    background-image: url(Content/Images/DarkSandBackground.jpg);
+    background-size: 100%;
     box-sizing: border-box;
 }
 
@@ -58,19 +59,19 @@ body {
 .navbar a {
     color: white;
     text-decoration: none;
-    padding: 0.9% 0.5%;
+    padding: 16px 10px;
     font-size: large;
 }
 
 .navbar a:hover {
     background-color: #555;
-    border-radius: 1%;
+    border-radius: 5px;
 }
 
 .navbar .home {
     color: white;
     text-decoration: none;
-    padding: 0.5% 1%;
+    padding: 11px 15px;
     font-size: x-large;
 }
 
