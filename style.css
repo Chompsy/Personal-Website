@@ -5,6 +5,7 @@ body {
     flex-direction: column;
     align-items: center;
     background-image: url(Content/Images/DarkWaterBackground.jpg);
+    box-sizing: border-box;
 }
 
 .navbar {
@@ -29,6 +30,7 @@ body {
     margin: 100px;
     flex-direction: column;
     align-items: center;
+    box-sizing: border-box;
 }
 
 .popUp h1 {
