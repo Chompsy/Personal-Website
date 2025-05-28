@@ -1,9 +1,15 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
 body {
     margin: 0;
     background-color: rgb(39, 39, 39);
     display: flex;
     flex-direction: column;
-    align-items: center;
+    
     background-image: url(Content/Images/DarkWaterBackground.jpg);
     box-sizing: border-box;
 }
