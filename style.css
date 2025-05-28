@@ -17,7 +17,8 @@ body {
     align-items: flex-start;
     flex-direction: row;
     position: static;
-    width: 98.7%;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 .popUp {
