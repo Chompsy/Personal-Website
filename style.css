@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    background-color: rgb(39, 39, 39);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(Content/Images/DarkWaterBackground.jpg);
+}
+
+.navbar {
+    background-color: #1f1f1f;
+    color: white;
+    padding: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    position: static;
+    width: 98.7%;
+}
+
+.popUp {
+    display: flex;
+    background-color: rgb(14, 13, 13);
+    border-radius: 15px;
+    padding: 0px 20px;
+    margin: 100px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.popUp h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    padding: 30px;
+}
+
+.popUp h2 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+}
+
+.navbar .verticalLine {
+    border-left: 3px solid rgb(17, 17, 17);
+    height: 50;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 15px 10px;
+    font-size: large;
+}
+
+.navbar a:hover {
+    background-color: #555;
+    border-radius: 5px;
+}
+
+.navbar .home {
+    color: white;
+    text-decoration: none;
+    padding: 11px 15px;
+    font-size: x-large;
+}
+
+
